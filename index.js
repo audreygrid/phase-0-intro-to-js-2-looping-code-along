@@ -3,8 +3,9 @@ const ms = require("mocha/lib/ms")
 // Code your solutions in this file
 
 function countDown(num) {
-    for (let i=num; i>=0; i--) {
-        console.log(i)
+    while (num>=0) {
+        console.log(num)
+        num -= 1
     }
 }
 function writeCards(people, event) {
